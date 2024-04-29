@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             clearButton.setOnClickListener {
                 nameEditText.text.clear()
                 ageEditText.text.clear()
-                resultTextView.text = ""
+                resultTextView.text = "Nelson Mandela"
             }
             personDatabase.addPerson("Stive biko", 31)
             personDatabase.addPerson("Albert Einstein", 76)
